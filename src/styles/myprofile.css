@@ -1,0 +1,100 @@
+.myprofile {
+    margin-top: 100px;
+    padding: 0px 30px;
+    padding-bottom: 50px;
+}
+
+.myprofile__wrapper {
+    padding: 20px;
+    border-radius: 5px;
+    background:#bbd7d5;
+    box-shadow: 0px 0px 15px -5px;
+    ;
+}
+
+.myprofile__title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+    
+}
+
+
+ 
+
+  .profile__title {
+    color:black;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .profile__desc {
+    color:rgba(95, 93, 93, 0.862);
+    margin-bottom: 2rem;
+  }
+  
+  label {
+    color:black;
+    margin-bottom: 5px;
+    font-size: 1rem;
+  }
+  
+  .form__group div {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+  }
+  
+  .form__group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .form__group div input {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background:white;
+    border: 1px solid #0c0c0c13;
+    color: black;
+    font-size: 1rem;
+  }
+  
+  .form__group div input::placeholder {
+    color:rgb(212, 209, 209);
+    font-size: 0.9rem;
+  }
+  
+  .form__group div input:focus {
+    outline: none;
+  }
+  
+  .profile-img__desc {
+    color:rgba(95, 93, 93, 0.862);
+    margin-bottom: 10px;
+  }
+  
+  
+  .update__btn {
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: -70px;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+ 
+
+  }
+  
+
+  .errorNote{
+    color: red;
+  }

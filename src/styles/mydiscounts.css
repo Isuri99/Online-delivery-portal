@@ -1,0 +1,151 @@
+.mydiscounts{
+    margin-top: 100px;
+    padding: 0px 30px;
+}
+
+.mydiscounts h2{
+    font-size: 2rem;
+}
+
+.mydiscounts__wrapper{
+    margin-top: 50px;
+}
+
+.discount__card{
+    height: 400px;
+    width: 300px;
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    text-align: center;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+}
+
+.discount__card:nth-child(1) {
+    background: linear-gradient( #1ba0af, white) ;
+}
+
+.discount__card:nth-child(2) {
+    background:linear-gradient( #0baa9a, white);
+}
+
+.discard__content h4 {
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+
+}
+
+.discard__content span {
+    color: rgba(0, 0, 0, 0.595);
+    font-size: 1rem;
+    font-weight: 1000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+   
+}
+
+.discard__icon {
+    font-size: 5rem;
+    font-weight: 400 !important;
+    color:white
+  
+}
+
+.discard__actions button{
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0.5rem;
+    border: 2px solid var(--primary-color);
+    background: white;
+    color: var(--primary-color);
+    border-radius: 15px;
+    transition: background 200ms ease-in, color 200ms ease-in;
+    cursor: pointer;
+    
+}
+
+.mydiscounts__cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+
+}
+
+.discount__card:hover{
+    transform: scale(1.05);
+}
+
+.discount__card:hover button {
+background: var(--primary-color);
+color: white;
+}
+
+.cardoffer__card{
+    height: 400px;
+    width: 300px;
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    text-align: center;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    background: linear-gradient(#085462, white) ;
+}
+
+.cardoffer__content h4 {
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+
+.cardoffer__content span {
+    color: black;
+    font-size: 1rem;
+}
+
+.cardoffer__icon {
+    font-size: 5rem;
+    font-weight: 400 !important;
+    color: white;
+    margin-top: 1rem;
+}
+
+.cardoffer__actions button{
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0.3rem;
+    border: 2px solid var(--primary-color);
+    background: white;
+    color: var(--primary-color);
+    border: radius 1rem;
+    border-radius: 15px;
+    transition: background 200ms ease-in, color 200ms ease-in;
+    cursor: pointer;
+    
+}
+
+.cardoffer__card:hover{
+    transform: scale(1.05);
+}
+
+.cardoffer__card:hover button {
+background: var(--primary-color);
+color: white;
+}

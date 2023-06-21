@@ -1,0 +1,120 @@
+/*CSS styles for the sidebar component*/
+
+/*Set the width, height, position and background of the sidebar*/
+.sidebar{
+    width: 240px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: var(--primary-color);
+    padding: 0px 30px;
+}
+
+
+
+
+/*Styles for the logo image*/
+.logo img{
+    width: 200px;
+    height: 50px; 
+    display: flex;
+    margin-left:-15px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 15px -5px;
+    
+}
+
+/*Styles for the profile image*/
+.profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+/*Styles for the profile name*/
+.profile h3{
+    color: var(--font-color);
+    font-size: 28px;
+    margin-left: 0;
+    margin-top: 15px;
+}
+
+/*Styles for the sidebar content*/
+.sidebar__content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 400px;
+    margin-top: 50px;
+}
+
+/*Styles for the menu items*/
+.menu{
+    height: 80%;
+}
+
+/*Styles for the bottom section of the sidebar*/
+.sidebar__bottom {
+    height: 40%;
+}
+
+/*Styles for the navigation links and the span elements*/
+.nav__link, 
+.sidebar__bottom span{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    cursor: pointer;
+}
+
+/* Styles for the span element in the bottom section of the sidebar */
+.sidebar__bottom span{
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 150px;
+
+}
+
+/* Styles for the icon in the span element in the bottom section of the sidebar */
+.sidebar__bottom span i{
+    color: white;
+}
+
+/* Styles for the navigation list */
+.nav__list{
+    display: flex;
+    row-gap: 2.5rem ;
+    flex-direction: column;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+  
+}
+
+/* Styles for the icon in the navigation links */
+.nav__link i {
+    color: white;
+}
+
+/* Styles for the active navigation link */
+.nav__active{
+    color: rgb(9, 80, 49);
+    background: white;
+    padding: 6px;
+    border-radius: 5px;
+    
+
+}
+.img1{
+    transform: scale(0.8);
+}
